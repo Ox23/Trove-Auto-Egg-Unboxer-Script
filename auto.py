@@ -36,32 +36,27 @@ def action():
     wait(2)
     move_pose(1846, 154)
     wait(0.5)
-    for x in range(20):
-        wait(0.3)
+    for x in range(10):
+        wait(0.2)
         click_left()
     wait(0.5)
-    for x in range(20):
-        wait(0.3)
+    for x in range(10):
+        wait(0.2)
         click_right()
     # hatch all eggs
-    wait(5)
+    wait(3.5)
     move_pose(640, 452)
     wait(0.5)
-    for x in range(10):
-        wait(0.3)
-        click_left()
+    click_left()
     move_pose(961, 453)
     wait(0.5)
-    for x in range(10):
-        wait(0.3)
-        click_left()
+    click_left()
     move_pose(1275, 456)
     wait(0.5)
-    for x in range(10):
-        wait(0.3)
-        click_left()
+    click_left()
 
     wait(3)
+    '''
     # click OK
     move_pose(610, 666)
     click_left()
@@ -71,11 +66,11 @@ def action():
 
     move_pose(1295, 662)
     click_left()
-
+    '''
     # reset attempt
     move_pose(1766, 156)
-    for x in range(10):
-        wait(0.3)
+    for x in range(5):
+        wait(0.2)
         click_left()
 
 
